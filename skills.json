@@ -1,0 +1,114 @@
+{
+  "updated": "2026-10-26",
+  "repo": "https://github.com/UW-Specialty-Masters-Club-2026/uw-foster-smc-claude-skills",
+  "categories": [
+    { "id": "workshop", "label": "From the workshop", "note": "Skills shared by Prof. Leo on October 26, 2026." },
+    { "id": "career", "label": "Career skills (made by SMC)", "note": "Download the ZIP and upload it in Claude under Customize → Skills." },
+    { "id": "anthropic", "label": "Starter picks from Anthropic", "note": "Check Customize → Skills first; some may already be there to switch on." },
+    { "id": "builtin", "label": "Already in Claude", "note": "Nothing to download. Turn on code execution and ask for the file." }
+  ],
+  "skills": [
+    {
+      "id": "resume-tailor",
+      "name": "Resume Tailor",
+      "category": "career",
+      "description": "Matches your resume to a job posting: fit table, before/after bullet rewrites, and an ATS format check.",
+      "action": "download",
+      "download_url": "https://raw.githubusercontent.com/UW-Specialty-Masters-Club-2026/uw-foster-smc-claude-skills/main/downloads/resume-tailor.zip",
+      "source_url": "https://github.com/UW-Specialty-Masters-Club-2026/uw-foster-smc-claude-skills/blob/main/skills/resume-tailor/SKILL.md",
+      "try_prompt": "Tailor my resume to this job."
+    },
+    {
+      "id": "cover-letter-writer",
+      "name": "Cover Letter Writer",
+      "category": "career",
+      "description": "A specific 250–350 word letter built from your two strongest stories, without the generic phrases.",
+      "action": "download",
+      "download_url": "https://raw.githubusercontent.com/UW-Specialty-Masters-Club-2026/uw-foster-smc-claude-skills/main/downloads/cover-letter-writer.zip",
+      "source_url": "https://github.com/UW-Specialty-Masters-Club-2026/uw-foster-smc-claude-skills/blob/main/skills/cover-letter-writer/SKILL.md",
+      "try_prompt": "Write a cover letter for this job using my resume."
+    },
+    {
+      "id": "interview-prep-coach",
+      "name": "Interview Prep Coach",
+      "category": "career",
+      "description": "Likely questions, a STAR story bank, and mock interviews one question at a time with feedback.",
+      "action": "download",
+      "download_url": "https://raw.githubusercontent.com/UW-Specialty-Masters-Club-2026/uw-foster-smc-claude-skills/main/downloads/interview-prep-coach.zip",
+      "source_url": "https://github.com/UW-Specialty-Masters-Club-2026/uw-foster-smc-claude-skills/blob/main/skills/interview-prep-coach/SKILL.md",
+      "try_prompt": "Run a mock behavioral interview for this role."
+    },
+    {
+      "id": "linkedin-optimizer",
+      "name": "LinkedIn Optimizer",
+      "category": "career",
+      "description": "Headline options, About section, and experience bullets rewritten for your target role.",
+      "action": "download",
+      "download_url": "https://raw.githubusercontent.com/UW-Specialty-Masters-Club-2026/uw-foster-smc-claude-skills/main/downloads/linkedin-optimizer.zip",
+      "source_url": "https://github.com/UW-Specialty-Masters-Club-2026/uw-foster-smc-claude-skills/blob/main/skills/linkedin-optimizer/SKILL.md",
+      "try_prompt": "Improve my LinkedIn profile for product management roles."
+    },
+    {
+      "id": "networking-outreach",
+      "name": "Networking Outreach",
+      "category": "career",
+      "description": "Connection notes, coffee-chat requests, referral asks, and follow-ups people actually answer.",
+      "action": "download",
+      "download_url": "https://raw.githubusercontent.com/UW-Specialty-Masters-Club-2026/uw-foster-smc-claude-skills/main/downloads/networking-outreach.zip",
+      "source_url": "https://github.com/UW-Specialty-Masters-Club-2026/uw-foster-smc-claude-skills/blob/main/skills/networking-outreach/SKILL.md",
+      "try_prompt": "Draft a coffee-chat request to a PM at Microsoft."
+    },
+    {
+      "id": "skill-creator",
+      "name": "Skill Creator",
+      "category": "anthropic",
+      "description": "Turn something you do often (case prep, meeting notes, study guides) into your own skill.",
+      "action": "link",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/skill-creator"
+    },
+    {
+      "id": "frontend-design",
+      "name": "Frontend Design",
+      "category": "anthropic",
+      "description": "Better-looking web pages and app prototypes.",
+      "action": "link",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/frontend-design"
+    },
+    {
+      "id": "internal-comms",
+      "name": "Internal Comms",
+      "category": "anthropic",
+      "description": "Status updates, newsletters, and team announcements.",
+      "action": "link",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/internal-comms"
+    },
+    {
+      "id": "brand-guidelines",
+      "name": "Brand Guidelines",
+      "category": "anthropic",
+      "description": "Keep documents and visuals on-brand.",
+      "action": "link",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/brand-guidelines"
+    },
+    {
+      "id": "canvas-design",
+      "name": "Canvas Design",
+      "category": "anthropic",
+      "description": "Posters and visual designs.",
+      "action": "link",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/canvas-design"
+    },
+    {
+      "id": "algorithmic-art",
+      "name": "Algorithmic Art",
+      "category": "anthropic",
+      "description": "Generative art with code.",
+      "action": "link",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/algorithmic-art"
+    },
+    { "id": "word", "name": "Word", "category": "builtin", "description": "Create and edit .docx documents.", "action": "none" },
+    { "id": "powerpoint", "name": "PowerPoint", "category": "builtin", "description": "Create slide decks.", "action": "none" },
+    { "id": "excel", "name": "Excel", "category": "builtin", "description": "Build spreadsheets with formulas and charts.", "action": "none" },
+    { "id": "pdf", "name": "PDF", "category": "builtin", "description": "Create, read, and fill PDFs.", "action": "none" }
+  ]
+}
